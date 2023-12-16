@@ -1,0 +1,40 @@
+2023-12-15 10:19:16.650 -06:00 [ERR] Error al filtrar las Visitas por fecha String '21/09/2023' was not recognized as a valid DateTime.
+System.FormatException: String '21/09/2023' was not recognized as a valid DateTime.
+   at System.Convert.ToDateTime(String value)
+   at Plagas.Services.Implementations.VisitaService.ListAsync(VisitaByDateSearch search) in C:\Users\Edmond\Downloads\drive-download-20231213T034544Z-001\PlagasApi\PlagasApi\Plagas.Services\Implementations\VisitaService.cs:line 130
+2023-12-15 10:19:36.440 -06:00 [ERR] Error al filtrar las Visitas por fecha String '21/09/2023' was not recognized as a valid DateTime.
+System.FormatException: String '21/09/2023' was not recognized as a valid DateTime.
+   at System.Convert.ToDateTime(String value)
+   at Plagas.Services.Implementations.VisitaService.ListAsync(VisitaByDateSearch search) in C:\Users\Edmond\Downloads\drive-download-20231213T034544Z-001\PlagasApi\PlagasApi\Plagas.Services\Implementations\VisitaService.cs:line 130
+2023-12-15 10:20:17.468 -06:00 [ERR] Error al filtrar las Visitas por fecha String '21/09/2023' was not recognized as a valid DateTime.
+System.FormatException: String '21/09/2023' was not recognized as a valid DateTime.
+   at System.Convert.ToDateTime(String value)
+   at Plagas.Services.Implementations.VisitaService.ListAsync(VisitaByDateSearch search) in C:\Users\Edmond\Downloads\drive-download-20231213T034544Z-001\PlagasApi\PlagasApi\Plagas.Services\Implementations\VisitaService.cs:line 130
+2023-12-15 15:45:55.670 -06:00 [ERR] Error al obtener los datos del reporte Could not find stored procedure 'uspReportSales'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'uspReportSales'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Plagas.Repositories.VisitaRepository.GetReportSaleAsync(DateTime dateStart, DateTime dateEnd) in C:\Users\Edmond\Downloads\drive-download-20231213T034544Z-001\PlagasApi\PlagasApi\Plagas.Repositories\VisitaRepository.cs:line 64
+   at Plagas.Services.Implementations.VisitaService.GetReportSaleAsync(DateTime dateStart, DateTime dateEnd) in C:\Users\Edmond\Downloads\drive-download-20231213T034544Z-001\PlagasApi\PlagasApi\Plagas.Services\Implementations\VisitaService.cs:line 194
+ClientConnectionId:3c37a1c7-075c-4e13-ba86-6afacf198741
+Error Number:2812,State:62,Class:16
+2023-12-15 15:48:07.884 -06:00 [ERR] Error al obtener los datos del reporte Could not find stored procedure 'uspReportSales'.
+Microsoft.Data.SqlClient.SqlException (0x80131904): Could not find stored procedure 'uspReportSales'.
+   at Microsoft.Data.SqlClient.SqlCommand.<>c.<ExecuteDbDataReaderAsync>b__209_0(Task`1 result)
+   at System.Threading.Tasks.ContinuationResultTaskFromResultTask`2.InnerInvoke()
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+--- End of stack trace from previous location ---
+   at System.Threading.ExecutionContext.RunInternal(ExecutionContext executionContext, ContextCallback callback, Object state)
+   at System.Threading.Tasks.Task.ExecuteWithThreadLocal(Task& currentTaskSlot, Thread threadPoolThread)
+--- End of stack trace from previous location ---
+   at Dapper.SqlMapper.QueryAsync[T](IDbConnection cnn, Type effectiveType, CommandDefinition command) in /_/Dapper/SqlMapper.Async.cs:line 434
+   at Plagas.Repositories.VisitaRepository.GetReportSaleAsync(DateTime dateStart, DateTime dateEnd) in C:\Users\Edmond\Downloads\drive-download-20231213T034544Z-001\PlagasApi\PlagasApi\Plagas.Repositories\VisitaRepository.cs:line 64
+   at Plagas.Services.Implementations.VisitaService.GetReportSaleAsync(DateTime dateStart, DateTime dateEnd) in C:\Users\Edmond\Downloads\drive-download-20231213T034544Z-001\PlagasApi\PlagasApi\Plagas.Services\Implementations\VisitaService.cs:line 194
+ClientConnectionId:3c37a1c7-075c-4e13-ba86-6afacf198741
+Error Number:2812,State:62,Class:16

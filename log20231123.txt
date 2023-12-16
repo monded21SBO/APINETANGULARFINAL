@@ -1,0 +1,30 @@
+2023-11-23 10:59:29.655 -06:00 [ERR] Error al subir el archivo romeosantos.jpg The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Plagas.Services.Implementations.FileUploader.UploadFileAsync(String base64Image, String fileName) in C:\Users\IT\Documents\PlagasApi\PlagasApi\Plagas.Services\Implementations\FileUploader.cs:line 28
+2023-11-23 11:00:53.896 -06:00 [ERR] Error al subir el archivo romeosantos.jpg The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Plagas.Services.Implementations.FileUploader.UploadFileAsync(String base64Image, String fileName) in C:\Users\IT\Documents\PlagasApi\PlagasApi\Plagas.Services\Implementations\FileUploader.cs:line 28
+2023-11-23 11:01:20.536 -06:00 [ERR] Error al subir el archivo romeosantos.jpg The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Plagas.Services.Implementations.FileUploader.UploadFileAsync(String base64Image, String fileName) in C:\Users\IT\Documents\PlagasApi\PlagasApi\Plagas.Services\Implementations\FileUploader.cs:line 28
+2023-11-23 11:03:59.750 -06:00 [ERR] Error al subir el archivo romeosantos.jpg The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Plagas.Services.Implementations.FileUploader.UploadFileAsync(String base64Image, String fileName) in C:\Users\IT\Documents\PlagasApi\PlagasApi\Plagas.Services\Implementations\FileUploader.cs:line 28
+2023-11-23 11:05:46.190 -06:00 [ERR] Error al subir el archivo romeosantos.jpg The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Plagas.Services.Implementations.FileUploader.UploadFileAsync(String base64Image, String fileName) in C:\Users\IT\Documents\PlagasApi\PlagasApi\Plagas.Services\Implementations\FileUploader.cs:line 28
+2023-11-23 11:06:50.730 -06:00 [ERR] Error al subir el archivo romeosantos.jpg The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+System.FormatException: The input is not a valid Base-64 string as it contains a non-base 64 character, more than two padding characters, or an illegal character among the padding characters.
+   at System.Convert.FromBase64CharPtr(Char* inputPtr, Int32 inputLength)
+   at System.Convert.FromBase64String(String s)
+   at Plagas.Services.Implementations.FileUploader.UploadFileAsync(String base64Image, String fileName) in C:\Users\IT\Documents\PlagasApi\PlagasApi\Plagas.Services\Implementations\FileUploader.cs:line 29
